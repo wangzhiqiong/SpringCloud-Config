@@ -37,12 +37,6 @@ eureka:
     instance-id: springcloud-dept8001
     prefer-ip-address: true                                  
 
-info:
-  app.name: wzq-springcloud
-  company.name: www.baidu.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
-
   
 ---
 
@@ -78,8 +72,3 @@ eureka:
     instance-id: springcloud-dept8002
     prefer-ip-address: true                                  
 
-info:
-  app.name: wzq-springcloud
-  company.name: www.baidu.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
