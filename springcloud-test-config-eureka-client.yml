@@ -29,7 +29,8 @@ server:
   port: 7002
 spring:
   profiles: test
-  application: springcloud-test-config-eureka-client
+  application:
+    name: springcloud-test-config-eureka-client
 eureka:
   instance:
     hostname: eureka7002.com
