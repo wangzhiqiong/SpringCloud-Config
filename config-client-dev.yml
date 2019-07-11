@@ -11,7 +11,7 @@ foo: foo version 1111666
 server:
   port: 8763
 spring:
-  profiles: test #测试环境
-  application: 
+  profiles: test  #开发环境
+  application:
     name: config-client
 foo: foo version 1111666
