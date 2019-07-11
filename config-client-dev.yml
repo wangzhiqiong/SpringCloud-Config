@@ -1,3 +1,21 @@
+
+spring:
+  profiles:
+    active:
+    - dev
+foo: foo version 1111666
+---
 server:
   port: 8762
-foo: foo version 1111666
+spring:
+  profiles: dev  #开发环境
+  application:
+    name: config-client
+
+
+---
+server:
+  port: 8763
+spring:
+  profiles: test #测试环境
+  application: config-client
